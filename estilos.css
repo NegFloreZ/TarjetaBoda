@@ -1,0 +1,213 @@
+body{
+	max-width: 800px;
+	margin: auto;
+}
+.section_one{
+	background-image: url("p1.png");
+	height: 1200px;
+}
+.section_two{
+	background-image: url("p2.png");
+	color: white;
+	height: 900px;
+}
+.section_three{
+	background-image: url("p3.png");
+	color: white;
+	height: 600px;
+}
+.section_four{
+	background-image: url("p4.png");
+	color: white;
+	height: 2400px;
+}
+.section_five{
+	background-image: url("p5.png");
+	color: white;
+	height: 2400px;
+}
+.section_six{
+	background-image: url("p6.png");
+	color: white;
+	height: 2400px;
+}
+.section_seven{
+	background-image: url("p7.png");
+	color: white;
+	height: 900px;
+}
+.box_one{
+	width: 400px;
+	font-family: "Alex Brush", cursive;
+  	font-weight: 400;
+  	font-style: normal;
+  	float: right;
+}
+.box_two{
+	width: 400px;
+	height: 740px;
+	font-family: "Belleza", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+  	display: inline-block;
+}
+.capa_two{
+	float: right;
+	background-color: black;
+	margin-right: 50px;
+	width: 300px;
+	height: 500px;
+}
+.box_four{
+	width: 800px;
+	height: 2000px;
+	font-family: "Mali", cursive;
+  	font-weight: 500;
+  	font-style: normal;
+}
+.texto_one{
+	font-size: 70px;
+	color: white;
+	text-align: center;
+}
+.texto_two{
+	font-size: 55px;
+	color: black;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 150px;
+}
+
+.texto_four{
+	width: 380px;
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	margin-top: 1300px;
+}
+.texto_four_one{
+	width: 400px;
+	float: right;
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	margin-top: 70px;
+	margin-right: 20px;
+}
+.boton{
+	width: 360px;
+	height: 100px;
+	margin: auto;
+}
+.boton_seven{
+	width: 400px;
+	height: 100px;
+	margin: auto;
+}
+a{
+	width: 400px;
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+}
+.boton:hover{
+	background-color: goldenrod;
+	opacity: 0.5;
+}
+.espacio{
+	height: 260px;
+}
+.capa{
+	height: 710px;
+	background-color: white;
+}
+.espacio_six{
+	height: 200px;
+}
+.capa_six{
+	height: 710px;
+	background-color: black;
+}
+.espacio_one{
+	height: 400px;
+}
+.espacio_five{
+	height: 920px;
+	background-color: white;
+}
+.espacio_seven{
+	height: 600px;
+}
+
+.con{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+/* ? ----- animacion ----- */
+
+.animado{
+	opacity: 0;
+	transition: all 0.5s;
+}
+.inanimado{
+	opacity: 1;
+	transition: all 1.5s;
+}
+
+.agrandar{
+	animation: agrandar 1.5s ;
+}
+@keyframes agrandar{
+	0% {transform: scale(1.4,1.4);}
+	100% {transform: scale(1,1);}
+}
+.gtitle{
+	animation: gtitle 5s infinite;
+}
+@keyframes gtitle{
+	0%{transform: scale(1,1);}
+	50% {transform: scale(1.5,1.5);}
+	100%{transform: scale(1,1);}
+}
+.colorb{
+	animation: colorb 3s infinite;
+}
+@keyframes colorb{
+	0% {opacity: 0;}
+	50% {background-color: goldenrod; opacity: 0.5}
+	100% {opacity: 0;}
+}
+
+/* ? ----- Cuenta Regresiva ----- */
+#cuenta {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.simply-section {
+	background: black;
+	width: 120px;
+	height: 120px;
+	margin: 0 20px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.simply-amount {
+	display: block;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.simply-word {
+	font-weight: 300;
+	font-size: 20px;
+}
+/* ? ---------------------------- */
