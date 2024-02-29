@@ -1,6 +1,7 @@
-@media (max-width: 600px) {
+
 body{
 	margin: auto;
+	max-width: 800px;
 }
 .section_one{
 	background-image: url("p1.png");
@@ -204,7 +205,6 @@ a{
 	font-size: 40px;
 	font-weight: 700;
 	text-align: center;
-}
 }
 .simply-word {
 	font-weight: 300;
