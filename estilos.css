@@ -1,5 +1,5 @@
+@media (max-width: 600px) {
 body{
-	max-width: 800px;
 	margin: auto;
 }
 .section_one{
@@ -205,7 +205,7 @@ a{
 	font-weight: 700;
 	text-align: center;
 }
-
+}
 .simply-word {
 	font-weight: 300;
 	font-size: 20px;
