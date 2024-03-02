@@ -1,167 +1,181 @@
-
+*{
+	margin: 0;
+	padding: 0;
+}
 body{
+	width: 100%;
 	margin: auto;
-	max-width: 800px;
+}
+.imgs{
+	width: 100%;
+	margin: 0;
 }
 .section_one{
-	background-image: url("p1.png");
-	height: 1200px;
-}
-.section_two{
-	background-image: url("p2.png");
-	color: white;
-	height: 900px;
-}
-.section_three{
-	background-image: url("p3.png");
-	color: white;
-	height: 600px;
-}
-.section_four{
-	background-image: url("p4.png");
-	color: white;
-	height: 2400px;
-}
-.section_five{
-	background-image: url("p5.png");
-	color: white;
-	height: 2400px;
-}
-.section_six{
-	background-image: url("p6.png");
-	color: white;
-	height: 2400px;
-}
-.section_seven{
-	background-image: url("p7.png");
-	color: white;
-	height: 900px;
-}
-.box_one{
-	width: 400px;
-	font-family: "Alex Brush", cursive;
+	width: 100%;
+	position: relative;
+    display: inline-block;
+    font-family: "Alex Brush", cursive;
   	font-weight: 400;
-  	font-style: normal;
-  	float: right;
-}
-.box_two{
-	width: 400px;
-	height: 740px;
-	font-family: "Belleza", sans-serif;
-  	font-weight: 400;
-  	font-style: normal;
-  	display: inline-block;
-}
-.capa_two{
-	float: right;
-	background-color: black;
-	margin-right: 50px;
-	width: 300px;
-	height: 500px;
-}
-.box_four{
-	width: 800px;
-	height: 2000px;
-	font-family: "Mali", cursive;
-  	font-weight: 500;
   	font-style: normal;
 }
 .texto_one{
-	font-size: 70px;
-	color: white;
 	text-align: center;
+	position: absolute;
+    top: 6%;
+    left: 20%;
+    font-size: 12vw;
+    color: goldenrod;
+}
+.section_two{
+	width: 100%;
+	position: relative;
+    display: inline-block;
+    font-family: "Belleza", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
 }
 .texto_two{
-	font-size: 55px;
-	color: black;
 	text-align: center;
-	margin-left: 30px;
-	margin-top: 150px;
+	position: absolute;
+	top: 20%;
+    left: 7%;
+    font-size: 7vw;
+    color: black;
 }
-
-.texto_four{
-	width: 380px;
-	font-size: 30px;
-	color: black;
-	text-align: center;
-	margin-top: 1300px;
+.box_two{
+	position: absolute;
+    top: 75%;
+    left: 34%;
 }
-.texto_four_one{
-	width: 400px;
-	float: right;
-	font-size: 30px;
-	color: black;
-	text-align: center;
-	margin-top: 70px;
-	margin-right: 20px;
+.capa_two{
+	position: absolute;
+    top: 10%;
+    left: 20%;
+	background-color: white;
+	width: 60%;
+	height: 70%;
+}
+.section_three{
+	width: 100%;
+	position: relative;
+    display: inline-block;
+}
+.capa_three{
+	position: absolute;
+    top: 2%;
+    left: 8%;
+	background-color: white;
+	width: 85%;
+	height: 50%;
+}
+.capa_three_o{
+	position: absolute;
+    top: 52%;
+    left: 8%;
+	background-color: white;
+	width: 85%;
+	height: 45%;
+}
+.section_four{
+	width: 100%;
+	position: relative;
+    display: inline-block;
+    background-color: black;
+}
+.section_five{
+	width: 100%;
+	position: relative;
+    display: inline-block;
+}
+.capa_five{
+	position: absolute;
+    top: 11%;
+    left: 8%;
+	background-color: white;
+	width: 85%;
+	height: 27%;
+}
+.capa_five_o{
+	position: absolute;
+    top: 54%;
+    left: 8%;
+	background-color: white;
+	width: 85%;
+	height: 27%;
 }
 .boton{
-	width: 360px;
-	height: 100px;
+	position: absolute;
+    top: 40%;
+    left: 28%;
+	width: 44%;
+	height: 4%;
 	margin: auto;
 }
-.boton_seven{
-	width: 400px;
-	height: 100px;
+.boton_o{
+	position: absolute;
+    top: 83%;
+    left: 28%;
+	width: 44%;
+	height: 4%;
 	margin: auto;
 }
 a{
-	width: 400px;
+	width: 50%;
+	height: 5vw;
 	text-decoration: none;
 	cursor: pointer;
-	color: white;
+	background-color: darkred;
+	font-size: 10vw;
+	opacity: 0;
 }
 .boton:hover{
 	background-color: goldenrod;
 	opacity: 0.5;
 }
-.espacio{
-	height: 260px;
+.boton_o:hover{
+	background-color: goldenrod;
+	opacity: 0.5;
 }
-.capa{
-	height: 710px;
-	background-color: white;
-}
-.espacio_six{
-	height: 200px;
-}
-.capa_six{
-	height: 710px;
+.section_six{
+	width: 100%;
+	position: relative;
+    display: inline-block;
 	background-color: black;
 }
-.espacio_one{
-	height: 400px;
-}
-.espacio_five{
-	height: 920px;
+.capa_six{
+	position: absolute;
+    top: 8%;
+    left: 8%;
 	background-color: white;
+	width: 85%;
+	height: 30%;
 }
-.espacio_seven{
-	height: 600px;
+.section_seven{
+	width: 100%;
+	position: relative;
+    display: inline-block;
 }
-
-.con{
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
+.boton_seven{
+	width: 50%;
+	height: 12%;
+	margin: auto;
+	position: absolute;
+    top: 65%;
+    left: 24%;
+}
+.capa_seven{
+	position: absolute;
+    top: 25%;
+    left: 6%;
+	background-color: white;
+	width: 90%;
+	height: 30%;
 }
 /* ? ----- animacion ----- */
 
-.animado{
-	opacity: 0;
-	transition: all 0.5s;
-}
 .inanimado{
 	opacity: 1;
-	transition: all 1.5s;
-}
-
-.agrandar{
-	animation: agrandar 1.5s ;
-}
-@keyframes agrandar{
-	0% {transform: scale(1.4,1.4);}
-	100% {transform: scale(1,1);}
+	transition: all 2s;
 }
 .gtitle{
 	animation: gtitle 5s infinite;
@@ -184,30 +198,32 @@ a{
 #cuenta {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 100px;
+	margin-bottom: 10%;
 }
 
 .simply-section {
-	background: black;
-	width: 120px;
-	height: 120px;
-	margin: 0 20px;
-	border-radius: 5px;
+	background: gray;
+	width: 50%;
+	height: 50%;
+	margin: 0 2%;
+	border-radius: 5%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	color: white;
     font-family: 'Work Sans', sans-serif;
-}
+    padding: 10%;
 
 .simply-amount {
 	display: block;
-	font-size: 40px;
+	font-size: 6vw;
 	font-weight: 700;
 	text-align: center;
 }
+
 .simply-word {
 	font-weight: 300;
-	font-size: 20px;
+	font-size: 2.3vw;
 }
+
 /* ? ---------------------------- */
