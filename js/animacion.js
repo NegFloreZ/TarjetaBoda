@@ -12,10 +12,9 @@ function mostrarScroll() {
 	}
 }
 function ocultarScroll() {
-	let scrollTop = document.documentElement.scrollTop;
 	for (var i = 0; i<inanimado.length; i++) {
-		let alturaAnimado = inanimado[i].offsetTop;
-		if(alturaAnimado - 900 < scrollTop){
+		let yPos = inanimado[i].getBoundingClientRect().top;
+		if(yPos < 600){
 			inanimado[i].style.opacity = 0;
 		}
 
